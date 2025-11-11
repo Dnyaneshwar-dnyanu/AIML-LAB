@@ -45,13 +45,12 @@ python ml_regression.py
 
 
 ## Environment
-`python >= 3.9`
-`pip install numpy matplotlib scikit-learn`
-
+```bash
+python >= 3.9
+pip install numpy matplotlib scikit-learn
 ---
-
-`### Notes on what to turn in`
-`- 8-puzzle: include the console table of results (5 cases × {BFS, DFS, UCS, A*-Manh, A*-LC}) and a short paragraph interpreting why A* dominates UCS on nodes/time.`
-`- Heuristics: add the admissibility/consistency sketch provided above.`
-`- Wumpus: paste the **Derived sentences** log to show the KB reasoning steps that led to safe cells and pit identification.`
-`- Regression: attach model_card.json plus the reported **RMSE/MAE** and the two figures (target_hist.png, true_vs_pred.png).`
+### Notes on what to turn in
+- 8-puzzle: include the console table of results (5 cases × {BFS, DFS, UCS, A*-Manh, A*-LC}) and a short paragraph interpreting why A* dominates UCS on nodes/time.
+- Heuristics: add the admissibility/consistency sketch provided above.
+- Wumpus: paste the **Derived sentences** log to show the KB reasoning steps that led to safe cells and pit identification.
+- Regression: attach `model_card.json` plus the reported **RMSE/MAE** and the two figures (`target_hist.png`, `true_vs_pred.png`). ```
